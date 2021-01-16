@@ -175,7 +175,7 @@ img{
 }
 
 .nosotros{
-    width: 45%;
+    width: 25%;
     height: 100%;
 }
 
@@ -186,11 +186,25 @@ img{
 }
 
 .texto-nosotros{
-    width: 45%;
+    width: 65%;
     height: 100%;
+    margin: 0px;
+
 }
 
 .texto-nosotros h4{
+    color: var(--color2);
+    text-align: center;
+    margin-top: 20px;
+}
+.texto-nosotros p{
+    color: var(--color1);
+    text-align: justify;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.texto-nosotros h3{
     color: var(--fondo);
     text-align: center;
 }
