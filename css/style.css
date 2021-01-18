@@ -168,7 +168,7 @@ img{
   width: 100%;
   box-shadow: 0 6px 6px 0 rgba(0,0,0,.5);
   overflow: hidden;
-  height:400px;
+  height:auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -200,7 +200,7 @@ img{
 .texto-nosotros p{
     color: var(--color1);
     text-align: justify;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -210,6 +210,9 @@ img{
 }
 
 .texto-sucursal p{
+    color: var(--fondo);
+}
+.texto-sucursal p a{
     color: var(--fondo);
 }
 
